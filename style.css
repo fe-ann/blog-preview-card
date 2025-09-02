@@ -51,7 +51,7 @@ body {
     height: 29px;
 }
 .category:hover {
-    background-color: hsl(47, 100%, 68%);;
+    background-color: hsl(47, 100%, 68%);
 }
 
 .text {
@@ -88,6 +88,11 @@ body {
     margin-top: 12px;
     width: 336px;
     height: 36px;
+}
+
+.text-2:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 .text-3 {
