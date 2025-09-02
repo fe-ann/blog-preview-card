@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("./Figtree-VariableFont_wght.ttf");
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.blog-card {
+    height: 522px;
+    width: 384px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 black;
+}
+
+.cover-img {
+    width: 336px;
+    height: 200px;
+    background-image: url("./images/illustration-article.svg");
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-radius: 10px;
+}
+
+.content {  
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 194px;
+    width: 336px;
+}
+
+.category {
+    cursor: pointer;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    width: 82px;
+    height: 29px;
+}
+.category:hover {
+    background-color: hsl(47, 100%, 68%);;
+}
+
+.text {
+    color: hsl(0, 0%, 7%);
+    font-family: "Figtree";
+    font-weight: 800;
+    text-align: center;
+    line-height: 150%;
+    font-size: 14px;
+    height: 21px;
+    width: 58px;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.text-1 {
+     color: hsl(0, 0%, 7%);
+    font-family: "Figtree";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    width: 143px;
+    height: 21px;
+    margin-top: 12px;
+}
+
+.text-2 {
+    color: hsl(47, 88%, 63%);
+    font-family: "Figtree";
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 12px;
+    width: 336px;
+    height: 36px;
+}
+
+.text-3 {
+    font-family: "Figtree";
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    font-size: 16px;
+    height: 72px;
+    width: 336px;
+    line-height: 150%;
+    margin-top: 12px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    width: 129px;
+    height: 32px;
+    margin-bottom: 14px;
+    margin-top: 17px;
+}
+
+.pfp {
+    width: 32px;
+    height: 32px;
+    background-image: url("./images/image-avatar.webp");
+     background-size: cover;
+     cursor: pointer;
+}
+
+.name {
+    padding-left: 12px;
+    font-family: "Figtree";
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    width: 85px;
+    height: 21px;
+    cursor: pointer;
+}
